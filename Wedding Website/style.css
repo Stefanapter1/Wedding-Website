@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#imageSide {
+    height: 90vh;
+    background-image:url(Images/homepage.jpeg);
+    background-size: cover;
+}
+.heading {
+    position: relative;
+    justify-content: end;
+}
+#title {
+    width: 20%;
+}
+h1 {
+    color:white;
+    font-size: large;
+    font-family: cursive;
+}
+h3 {
+    color:white;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Writing side edits */
+
+#writingSide {
+    height: 90vh;
+    background-image:url(Images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.informationBox {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    background-image: url(Images/Background.jpg);
+}
+/* Moving down the pages */
+.specialGuests {
+    width: 20%;
+    height: 20%;
+}
+.bestMan{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.spotify1 {
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
